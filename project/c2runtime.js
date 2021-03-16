@@ -21338,10 +21338,10 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.NinePatch,
-	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Spritefont2,
+	cr.plugins_.Mouse,
 	cr.plugins_.Text,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
 	cr.plugins_.Tilemap,
 	cr.behaviors.EightDir,
